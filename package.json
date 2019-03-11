@@ -1,0 +1,14 @@
+{
+  "name": "rwicarrental",
+  "version": "1.0.0",
+  "description": "Find your car to drive",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "webroyit",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
