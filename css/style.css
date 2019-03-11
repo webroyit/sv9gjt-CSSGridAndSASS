@@ -14,3 +14,30 @@ body {
   color: #7c7878;
   font-weight: 300;
   line-height: 1.6; }
+
+.cars {
+  background-color: #15293f; }
+
+.features {
+  background-color: #7c7878; }
+
+.footer {
+  background-color: #15293f; }
+
+.gallery {
+  background-color: #3b3329; }
+
+.header {
+  background-color: #3b3329; }
+
+.sidebar {
+  background-color: #df8a23; }
+
+.staff {
+  background-color: #15293f; }
+
+.story__pictures {
+  background-color: #df8a23; }
+
+.story__content {
+  background-color: #e9e7e7; }
