@@ -34,3 +34,10 @@ body{
     font-weight: 300;
     line-height: 1.6;
 }
+
+.container{
+    // css grid
+    display: grid;
+    // min-content is the height of the content
+    grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+}
