@@ -40,4 +40,6 @@ body{
     display: grid;
     // min-content is the height of the content
     grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+    // minmax make it responsive
+    grid-template-columns: 8rem 1fr repeat(8, minmax(min-content, (14rem))) 1fr;
 }
