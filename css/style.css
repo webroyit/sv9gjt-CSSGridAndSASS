@@ -19,30 +19,43 @@ body {
   display: grid;
   grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
   grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] 1fr [full-end]; }
+  .container > * {
+    padding: 40px;
+    font-size: 3rem; }
 
 .cars {
-  background-color: #15293f; }
+  background-color: #15293f;
+  grid-column: center-start / center-end; }
 
 .features {
-  background-color: #7c7878; }
+  background-color: #7c7878;
+  grid-column: center-start / center-end; }
 
 .footer {
-  background-color: #15293f; }
+  background-color: #15293f;
+  grid-column: full-start / full-end; }
 
 .gallery {
-  background-color: #3b3329; }
+  background-color: #3b3329;
+  grid-column: full-start / full-end; }
 
 .header {
-  background-color: #3b3329; }
+  background-color: #3b3329;
+  grid-column: full-start / col-end 6; }
 
 .sidebar {
-  background-color: #df8a23; }
+  background-color: #df8a23;
+  grid-column: sidebar-start / sidebar-end;
+  grid-row: 1 / -1; }
 
 .staff {
-  background-color: #15293f; }
+  background-color: #15293f;
+  grid-column: col-start 7 / full-end; }
 
 .story__pictures {
-  background-color: #df8a23; }
+  background-color: #df8a23;
+  grid-column: full-start / col-end 4; }
 
 .story__content {
-  background-color: #e9e7e7; }
+  background-color: #e9e7e7;
+  grid-column: col-start 5 /full-end; }
