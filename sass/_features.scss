@@ -13,12 +13,18 @@
     display: grid;
     grid-template-columns: min-content 1fr;
 
+    // add space between row and column
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 2.5rem;
+
     &__icon{
         fill: $color-primary;
         width: 4.5rem;
         height: 4.5rem;
         // -1 mean end of the explicit grid
         grid-row: 1 / span 2;
+        // move the icon up
+        transform: translateY(-1rem);
     }
 
     &__text{
