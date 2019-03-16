@@ -67,3 +67,14 @@ body {
 .story__content {
   background-color: #e9e7e7;
   grid-column: col-start 5 /full-end; }
+
+.heading-1, .heading-2, .heading-3, .heading-4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400; }
+
+.heading-4 {
+  font-size: 1.9rem; }
+  .heading-4--light {
+    color: #e9e7e7; }
+  .heading-4--dark {
+    color: #3b3329; }
