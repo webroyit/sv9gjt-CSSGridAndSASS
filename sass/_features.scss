@@ -10,11 +10,15 @@
 }
 
 .feature{
+    display: grid;
+    grid-template-columns: min-content 1fr;
 
     &__icon{
         fill: $color-primary;
         width: 4.5rem;
         height: 4.5rem;
+        // -1 mean end of the explicit grid
+        grid-row: 1 / span 2;
     }
 
     &__text{
