@@ -4,7 +4,11 @@
     margin: 15rem 0;
 
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    //grid-template-columns: repeat(3, 1fr);
+
+    // auto-fit try to fit as many content based on the width
+    // it move the content to the next row if it does not fit
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 
     grid-gap: 6rem;
     align-items: start;
