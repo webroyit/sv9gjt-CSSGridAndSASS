@@ -73,11 +73,26 @@ body {
 
 .story__content {
   background-color: #e9e7e7;
-  grid-column: col-start 5 /full-end; }
+  grid-column: col-start 5 /full-end;
+  padding: 6rem 12rem; }
 
 .heading-1, .heading-2, .heading-3, .heading-4 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400; }
+
+.heading-2 {
+  font-size: 4rem;
+  font-style: italic;
+  line-height: 1; }
+  .heading-2--light {
+    color: #e9e7e7; }
+  .heading-2--dark {
+    color: #3b3329; }
+
+.heading-3 {
+  font-size: 1.6rem;
+  color: #df8a23;
+  text-transform: uppercase; }
 
 .heading-4 {
   font-size: 1.9rem; }
@@ -85,3 +100,17 @@ body {
     color: #e9e7e7; }
   .heading-4--dark {
     color: #3b3329; }
+
+.btn {
+  background-color: #df8a23;
+  color: white;
+  border: none;
+  border-radius: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1.6rem 2.8rem;
+  cursor: pointer;
+  transition: all .3s; }
+  .btn:hover {
+    background-color: #90540b; }
