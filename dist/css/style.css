@@ -76,6 +76,11 @@ body {
   grid-column: col-start 5 /full-end;
   padding: 6rem 12rem; }
 
+.story__text {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 4rem; }
+
 .heading-1, .heading-2, .heading-3, .heading-4 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400; }
@@ -114,3 +119,15 @@ body {
   transition: all .3s; }
   .btn:hover {
     background-color: #90540b; }
+
+.mb-sm {
+  margin-bottom: 2rem; }
+
+.mb-md {
+  margin-bottom: 3rem; }
+
+.mb-lg {
+  margin-bottom: 4rem; }
+
+.mb-hg {
+  margin-bottom: 8rem; }
