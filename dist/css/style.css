@@ -28,13 +28,20 @@ body {
   grid-gap: 7rem; }
 
 .car {
-  background-color: #e9e7e7; }
-  .car_img {
-    width: 100%; }
+  background-color: #e9e7e7;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+  .car__img {
+    width: 100%;
+    grid-column: 1 / -1; }
+  .car__name {
+    grid-column: 1 / -1; }
   .car__seat svg, .car__speed svg, .car__price svg, .car__time svg {
     fill: #df8a23;
     height: 2rem;
     width: 2rem; }
+  .car__btn {
+    grid-column: 1 / -1; }
 
 .features {
   grid-column: center-start / center-end;
