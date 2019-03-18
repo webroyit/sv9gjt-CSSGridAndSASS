@@ -13,12 +13,15 @@
         width: 100%;
         grid-row: 2 / 6;
         grid-column: 2 / 6;
+        box-shadow: 0 2rem 5rem rgba(black, .2);
     }
 
     &__img--2{
-        width: 100%;
+        width: 115%;
         grid-row: 4 / 6;
         grid-column: 4 / 7;
+        z-index: 10;
+        box-shadow: 0 2rem 5rem rgba(black, .3);
     }
 
     &__content{
