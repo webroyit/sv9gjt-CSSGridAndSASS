@@ -29,6 +29,12 @@ body {
 
 .car {
   background-color: #e9e7e7; }
+  .car_img {
+    width: 100%; }
+  .car__seat svg, .car__speed svg, .car__price svg, .car__time svg {
+    fill: #df8a23;
+    height: 2rem;
+    width: 2rem; }
 
 .features {
   grid-column: center-start / center-end;
