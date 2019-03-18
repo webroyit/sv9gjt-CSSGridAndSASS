@@ -2,6 +2,16 @@ From Udemy - Advanced CSS and SASS by Jonas Schmedtmann
 --------------------------------------------------------
 Practicing on how to use css grid and sass.
 
+3-Story
+--------------------------------------------------------
+- Add styles to the heading and the button
+- Add helper class for margin bottom
+- Use flex to center the content
+- Use viewport instead of rem for padding
+- Use CSS Grid to place the second image over the first image
+- Use z-index and box-shadow
+- Add background image and use linear-gradient
+
 2-Feature
 --------------------------------------------------------
 - Use CSS grid on feature section
