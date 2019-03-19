@@ -46,7 +46,16 @@ body {
     grid-column: 2 / 3;
     justify-self: end; }
   .car__name {
-    grid-column: 1 / -1; }
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: 80%;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: #15293f;
+    color: white;
+    font-weight: 400; }
   .car__seat svg, .car__speed svg, .car__price svg, .car__time svg {
     fill: #df8a23;
     height: 2rem;

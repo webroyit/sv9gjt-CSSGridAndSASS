@@ -32,11 +32,20 @@
 
         // this will only move the like icon
         justify-self: end;
-
     }
 
     &__name{
         grid-column: 1 / -1;
+        justify-self: center;
+
+        width: 80%;
+        font-family: $font-display;
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 1rem;
+        background-color: $color-secondary;
+        color: white;
+        font-weight: 400;
     }
 
     &__seat,
