@@ -30,7 +30,8 @@ body {
 .car {
   background-color: #e9e7e7;
   display: grid;
-  grid-template-columns: repeat(2, 1fr); }
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 3rem; }
   .car__img {
     width: 100%;
     grid-row: 1 / 2;
@@ -58,7 +59,10 @@ body {
     padding: 1rem;
     background-color: #15293f;
     color: white;
-    font-weight: 400; }
+    font-weight: 400;
+    transform: translateY(30%); }
+  .car__seat, .car__speed {
+    margin-top: 2rem; }
   .car__seat svg, .car__speed svg, .car__price svg, .car__time svg {
     fill: #df8a23;
     height: 2rem;
