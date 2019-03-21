@@ -46,8 +46,11 @@ body {
     grid-column: 2 / 3;
     justify-self: end; }
   .car__name {
+    grid-row: 1 / 2;
     grid-column: 1 / -1;
     justify-self: center;
+    align-self: end;
+    z-index: 5;
     width: 80%;
     font-family: "Josefin Sans", sans-serif;
     font-size: 1.6rem;

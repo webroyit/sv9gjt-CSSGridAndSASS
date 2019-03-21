@@ -35,8 +35,11 @@
     }
 
     &__name{
+        grid-row: 1 / 2;
         grid-column: 1 / -1;
         justify-self: center;
+        align-self: end;
+        z-index: 5;
 
         width: 80%;
         font-family: $font-display;
