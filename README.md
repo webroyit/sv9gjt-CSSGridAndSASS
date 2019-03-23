@@ -2,6 +2,13 @@ From Udemy - Advanced CSS and SASS by Jonas Schmedtmann
 --------------------------------------------------------
 Practicing on how to use css grid and sass.
 
+6-Footer and Sidebar
+--------------------------------------------------------
+- Use auto-fit on the footer nav list
+- Add hover for the link
+- Add the three lines nav button and style it
+- Use flex to center the nav button
+
 5-Gallery
 --------------------------------------------------------
 - Set up the layout of the gallery using css grid
