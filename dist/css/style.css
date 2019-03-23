@@ -101,7 +101,7 @@ body {
 .footer {
   background-color: #15293f;
   grid-column: full-start / full-end;
-  padding: 8rem; }
+  padding: 6rem; }
 
 .nav {
   list-style: none;
@@ -122,6 +122,15 @@ body {
   .nav__link:hover, .nav__link:active {
     background-color: rgba(255, 255, 255, 0.05);
     transform: translateY(-3px); }
+
+.copyright {
+  font-size: 1.35rem;
+  color: #7c7878;
+  margin-top: 5rem;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 70%; }
 
 .gallery {
   background-color: #3b3329;
