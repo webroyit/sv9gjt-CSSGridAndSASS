@@ -2,6 +2,12 @@ From Udemy - Advanced CSS and SASS by Jonas Schmedtmann
 --------------------------------------------------------
 Practicing on how to use css grid and sass.
 
+5-Gallery
+--------------------------------------------------------
+- Set up the layout of the gallery using css grid
+- Use object-fit on each image
+- Use grid-row and grid-column to position each image
+
 4-Cars
 --------------------------------------------------------
 - Set up the layout of the cars using css grid
