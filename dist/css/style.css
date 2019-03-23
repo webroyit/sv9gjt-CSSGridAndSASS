@@ -106,7 +106,18 @@ body {
 .nav {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); }
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  grid-gap: 2rem; }
+  .nav__link:link, .nav__link:visited {
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.05); }
 
 .gallery {
   background-color: #3b3329;
