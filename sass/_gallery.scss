@@ -8,7 +8,15 @@
     grid-gap: 1.5rem;
     padding: 1rem;
 
-    & > * {
+    &__item{
+
+    }
+
+    &__img{
         width: 100%;
+        height: 100%;
+        // only works if you set the width and the height
+        object-fit: cover;
+        display: block;
     }
 }
