@@ -197,6 +197,24 @@ body {
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1 / -1; }
 
+.nav-btn {
+  border: none;
+  border-radius: 0;
+  background-color: white;
+  height: 2px;
+  width: 3.5rem;
+  margin-top: 4rem; }
+  .nav-btn::before, .nav-btn::after {
+    background-color: white;
+    height: 2px;
+    width: 3.5rem;
+    content: "";
+    display: block; }
+  .nav-btn::before {
+    transform: translateY(-1rem); }
+  .nav-btn::after {
+    transform: translateY(1rem); }
+
 .staff {
   background-color: #15293f;
   grid-column: col-start 7 / full-end; }
