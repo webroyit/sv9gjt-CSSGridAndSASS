@@ -2,6 +2,14 @@ From Udemy - Advanced CSS and SASS by Jonas Schmedtmann
 --------------------------------------------------------
 Practicing on how to use css grid and sass.
 
+4-Cars
+--------------------------------------------------------
+- Set up the layout of the cars using css grid
+- Use sub element to move the text up
+- Add styles to the like icon and move it to the top right corner of the card
+- Display the car name on top of the card
+- Add some margin to the icon and the text
+
 3-Story
 --------------------------------------------------------
 - Add styles to the heading and the button
