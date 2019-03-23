@@ -63,10 +63,16 @@ body {
     transform: translateY(30%); }
   .car__seat, .car__speed {
     margin-top: 2rem; }
-  .car__seat svg, .car__speed svg, .car__price svg, .car__time svg {
-    fill: #df8a23;
-    height: 2rem;
-    width: 2rem; }
+  .car__seat, .car__speed, .car__price, .car__time {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center; }
+    .car__seat svg, .car__speed svg, .car__price svg, .car__time svg {
+      fill: #df8a23;
+      height: 2rem;
+      width: 2rem;
+      margin-right: 1rem; }
   .car__btn {
     grid-column: 1 / -1; }
 
