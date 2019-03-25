@@ -1,6 +1,9 @@
 .header{
     background-color: $color-pink;
     grid-column: full-start / col-end 6;
+    background-image: linear-gradient(rgba($color-pink, .8), rgba($color-secondary, .5)), url(../img/hero.jpe);
+    background-size: cover;
+    background-position: top;
 
     &__logo{
         height: 5rem;;

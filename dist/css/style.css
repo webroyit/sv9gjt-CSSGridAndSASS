@@ -190,7 +190,10 @@ body {
 
 .header {
   background-color: #b4538f;
-  grid-column: full-start / col-end 6; }
+  grid-column: full-start / col-end 6;
+  background-image: linear-gradient(rgba(180, 83, 143, 0.8), rgba(21, 41, 63, 0.5)), url(../img/hero.jpe);
+  background-size: cover;
+  background-position: top; }
   .header__logo {
     height: 5rem; }
   .header__seenon-logos img {
