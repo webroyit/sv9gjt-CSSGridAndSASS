@@ -189,8 +189,12 @@ body {
     display: block; }
 
 .header {
-  background-color: #3b3329;
+  background-color: #b4538f;
   grid-column: full-start / col-end 6; }
+  .header__logo {
+    height: 5rem; }
+  .header__seenon-logos img {
+    height: 6.5rem; }
 
 .sidebar {
   background-color: #df8a23;
@@ -260,6 +264,11 @@ body {
 .heading-1, .heading-2, .heading-3, .heading-4 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400; }
+
+.heading-1 {
+  font-size: 4.5rem;
+  color: #e9e7e7;
+  line-height: 1; }
 
 .heading-2 {
   font-size: 4rem;
