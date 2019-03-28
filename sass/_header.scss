@@ -36,6 +36,11 @@
         img{
             // setting the width would mess up the logos
             height: 6.5rem;
+
+            // default brightness is 100%
+            // under 100% make it darker
+            // above 100% make it lighter
+            filter: brightness(55%);
         }
     }
 }
