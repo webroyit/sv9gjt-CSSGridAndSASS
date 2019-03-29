@@ -2,6 +2,15 @@ From Udemy - Advanced CSS and SASS by Jonas Schmedtmann
 --------------------------------------------------------
 Practicing on how to use css grid and sass.
 
+7-Header
+--------------------------------------------------------
+- Use css grid on the header
+- Use align-self and justify-self to position the button
+- Use max-content and center the header content
+- Add filter and use brightness on the logos
+- Use before and affer pseudo elements
+- Put the before and after line and text on the same row
+
 6-Footer and Sidebar
 --------------------------------------------------------
 - Use auto-fit on the footer nav list
