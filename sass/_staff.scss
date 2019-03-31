@@ -3,6 +3,12 @@
     grid-column: col-start 7 / full-end;
     padding: 3rem;
 
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    grid-row-gap: 2rem;
+
     &__list{
         display: grid;
         // max-content prevent any line break
