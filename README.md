@@ -2,6 +2,11 @@ From Udemy - Advanced CSS and SASS by Jonas Schmedtmann
 --------------------------------------------------------
 Practicing on how to use css grid and sass.
 
+8-Staff
+--------------------------------------------------------
+- Add staffs image and content
+- Use css grid
+
 7-Header
 --------------------------------------------------------
 - Use css grid on the header
