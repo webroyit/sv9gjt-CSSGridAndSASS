@@ -255,17 +255,23 @@ body {
 
 .staffs {
   background-color: #15293f;
-  grid-column: col-start 7 / full-end; }
+  grid-column: col-start 7 / full-end;
+  padding: 3rem; }
   .staffs__list {
     display: grid;
     grid-template-columns: min-content max-content;
     grid-column-gap: 2rem;
-    grid-row-gap: 5vh; }
+    grid-row-gap: 5vh;
+    align-items: center; }
   .staffs__img {
     display: block;
     height: 7rem;
     width: 7rem;
     border-radius: 50%; }
+  .staffs__sold {
+    text-transform: uppercase;
+    color: #7c7878;
+    margin-top: -3px; }
 
 .story__pictures {
   background-color: #df8a23;

@@ -1,6 +1,7 @@
 .staffs{
     background-color: $color-secondary;
     grid-column: col-start 7 / full-end;
+    padding: 3rem;
 
     &__list{
         display: grid;
@@ -9,6 +10,7 @@
         grid-column-gap: 2rem;
         // vh to make it responsive
         grid-row-gap: 5vh;
+        align-items: center;
     }
 
     &__img{
@@ -19,6 +21,8 @@
     }
 
     &__sold{
-
+        text-transform: uppercase;
+        color: $color-grey-light-2;
+        margin-top: -3px;
     }
 }
