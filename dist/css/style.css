@@ -256,6 +256,11 @@ body {
 .staffs {
   background-color: #15293f;
   grid-column: col-start 7 / full-end; }
+  .staffs__list {
+    display: grid;
+    grid-template-columns: min-content max-content;
+    grid-column-gap: 2rem;
+    grid-row-gap: 5vh; }
   .staffs__img {
     display: block;
     height: 7rem;

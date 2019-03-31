@@ -3,7 +3,12 @@
     grid-column: col-start 7 / full-end;
 
     &__list{
-
+        display: grid;
+        // max-content prevent any line break
+        grid-template-columns: min-content max-content;
+        grid-column-gap: 2rem;
+        // vh to make it responsive
+        grid-row-gap: 5vh;
     }
 
     &__img{
