@@ -9,7 +9,7 @@
 
     display: grid;
     grid-template-rows: 1fr min-content 6rem 1fr;
-    grid-template-columns: max-content;
+    grid-template-columns: minmax(min-content, max-content);
     grid-row-gap: 1.5rem;
     justify-content: center;
 
@@ -48,10 +48,12 @@
         grid-template-columns: repeat(4, 1fr);
         grid-column-gap: 3rem;
         justify-items: center;
+        align-items: center;
 
         img{
             // setting the width would mess up the logos
-            height: 6.5rem;
+            max-height: 6.5rem;
+            max-width: 100%;
 
             // default brightness is 100%
             // under 100% make it darker
