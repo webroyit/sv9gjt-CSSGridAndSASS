@@ -9,6 +9,10 @@
     justify-items: center;
     grid-row-gap: 2rem;
 
+    @media only screen and (max-width: $bp-medium){
+        grid-column: 1 / -1;
+    }
+
     &__list{
         display: grid;
         // max-content prevent any line break
@@ -17,6 +21,11 @@
         // vh to make it responsive
         grid-row-gap: 5vh;
         align-items: center;
+
+        @media only screen and (max-width: $bp-medium){
+            // make the images side by side
+            grid-template-columns: repeat(3, min-content max-content);
+        }
     }
 
     &__img{

@@ -211,6 +211,9 @@ body {
   grid-template-columns: minmax(min-content, max-content);
   grid-row-gap: 1.5rem;
   justify-content: center; }
+  @media only screen and (max-width: 50em) {
+    .header {
+      grid-column: 1 / -1; } }
   .header__logo {
     height: 5rem;
     justify-self: center; }
@@ -288,12 +291,18 @@ body {
   justify-content: center;
   justify-items: center;
   grid-row-gap: 2rem; }
+  @media only screen and (max-width: 50em) {
+    .staffs {
+      grid-column: 1 / -1; } }
   .staffs__list {
     display: grid;
     grid-template-columns: min-content max-content;
     grid-column-gap: 2rem;
     grid-row-gap: 5vh;
     align-items: center; }
+    @media only screen and (max-width: 50em) {
+      .staffs__list {
+        grid-template-columns: repeat(3, min-content max-content); } }
   .staffs__img {
     display: block;
     height: 7rem;
