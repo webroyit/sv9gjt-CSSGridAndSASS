@@ -2,6 +2,15 @@ From Udemy - Advanced CSS and SASS by Jonas Schmedtmann
 --------------------------------------------------------
 Practicing on how to use css grid and sass.
 
+9-Media Queries
+--------------------------------------------------------
+- Make the seeon logos size smaller when in mobile
+- Use min-content on the header
+- Move the sidebar to the top of the website
+- Move the staffs part below the header
+- Move the story content to the top of the story images
+- Resize the story images
+
 8-Staff
 --------------------------------------------------------
 - Add staffs image and content
