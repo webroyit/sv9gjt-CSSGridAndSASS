@@ -1,6 +1,6 @@
 From Udemy - Advanced CSS and SASS by Jonas Schmedtmann
 --------------------------------------------------------
-Practicing on how to use css grid and sass.
+Practicing on how to use css grid and sass.  This is a fictional website about car rental.
 
 9-Media Queries
 --------------------------------------------------------
